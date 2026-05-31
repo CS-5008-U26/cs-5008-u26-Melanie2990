@@ -1,33 +1,33 @@
 /* A First C Program - for Homework 1
  *
- * This code will start you off.  Modify it as instructed in Homework 1.
- * 
- * Put your name here: Professor Shafer
+ * This code will start you off. Modify it as instructed in Homework 1.
+ *
+ * Put your name here: Mengling Zhang
  * CS-5008 Spring 2025
  */
 
-/* Standard Libraries */
 #include <stdio.h>
-
-/**** MAIN PROGRAM ****/
 
 int main() {
 
-    int x;                          // x will be the value entered by the user
-    char s[100];                    // s is used to "pause" the console so it doesn't exit too quickly
+    int x;                          // x will be the first number entered by the user
+    int y;                          // y will be the second number entered by the user
+    int sum;                        // sum will hold the total of x and y
+    char s[100];                    // s is used to pause the console
 
-    /* Ask for a number and print it out */
-    printf("Enter a number: ");     // prompt the user
-    scanf("%d", &x);                // read a number from the console ("stdin")
-    fgets(s,100,stdin);             // sadly, we have to remove the \n that scanf leaves in stdin
-    printf("You entered %d\n", x);  // tell the user what number they just entered
-    
-    /* Normally I would not put a comment on every line of code.
-       I just did it above because you are learning C for the first time.
-       I would only put a comment on a line if it was hard to understand or required that you
-       know something that is not entirely obvious by looking at the code.
-    */
+    /* Ask for two numbers and print their sum */
+    printf("Enter a number:\n\n");
+    scanf("%d", &x);
+
+    printf("\nEnter another number:\n\n");
+    scanf("%d", &y);
+
+    sum = x + y;
+    printf("\nTheir sum is %d\n", sum);
 
     /* Pause the console so we can look at it before it vanishes */
-    fgets(s,100,stdin);
+    fgets(s, 100, stdin);
+    fgets(s, 100, stdin);
+
+    return 0;
 }
