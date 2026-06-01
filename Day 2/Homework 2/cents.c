@@ -1,3 +1,12 @@
+/* Cents Program - Homework 2
+ *
+ * Put your name here: Mengling Zhang
+ * CS-5008 Spring 2025
+ *
+ * This program asks the user for a number of cents and prints
+ * the number of quarters, dimes, nickels, and pennies required.
+ */
+
 #include <stdio.h>
 
 int main() {

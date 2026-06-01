@@ -1,4 +1,14 @@
+/* Letter Grade Program - Homework 2
+ *
+ * Put your name here: Mengling Zhang
+ * CS-5008 Spring 2025
+ *
+ * This program asks the user for a number score from 1 to 10
+ * and prints the matching letter grade using if and else.
+ */
+
 #include <stdio.h>
+
 
 int main() {
 

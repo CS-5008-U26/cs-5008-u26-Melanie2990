@@ -1,3 +1,13 @@
+/* Letter Grade 2 Program - Homework 2
+ *
+ * Put your name here: Mengling Zhang
+ * CS-5008 Spring 2025
+ *
+ * This program asks the user for a number score from 0 to 100
+ * and prints a letter grade with a plus or minus when needed.
+ */
+
+
 #include <stdio.h>
 
 int main() {

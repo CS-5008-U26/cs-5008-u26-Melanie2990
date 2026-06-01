@@ -1,3 +1,12 @@
+/* Radius Program - Homework 2
+ *
+ * Put your name here: Mengling Zhang
+ * CS-5008 Spring 2025
+ *
+ * This program asks the user for an integer radius
+ * and prints an integer approximation of the circle's area.
+ */
+
 #include <stdio.h>
 #include <math.h>
 

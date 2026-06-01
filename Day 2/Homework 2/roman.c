@@ -1,3 +1,12 @@
+/* Roman Numeral Program - Homework 2
+ *
+ * Put your name here: Mengling Zhang
+ * CS-5008 Spring 2025
+ *
+ * This program asks the user for a number between 1 and 4000
+ * and prints the number as a Roman numeral.
+ */
+
 #include <stdio.h>
 
 int main() {
