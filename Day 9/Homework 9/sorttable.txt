@@ -1,0 +1,11 @@
+10-SECOND N VALUES — ROUGH COMBINED ESTIMATE
+
+                    RANDOM          SORTED              REVERSE
+BUBBLE SORT         90,000          7,000,000,000       90,000
+SELECTION SORT      140,000         140,000             130,000
+INSERTION SORT      170,000         3,000,000,000       120,000
+MERGE SORT          45,000,000      90,000,000          90,000,000
+QUICK SORT          70,000,000      245,000,000         230,000,000
+BST SORT            8,500,000       50,000              50,000
+
+
