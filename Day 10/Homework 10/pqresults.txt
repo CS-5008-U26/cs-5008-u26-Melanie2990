@@ -1,0 +1,22 @@
+Priority Queue 10-Second N Results
+
+Computer: MacBook Air
+Compiler: GCC using the C11 standard
+Random value range: 0 to 99,999,999
+
+---------------------------------------------------------------
+Implementation       Operation       10-Second N       Time
+---------------------------------------------------------------
+Sorted Array          Enqueue         72,500,000        10.01 seconds
+Sorted Array          Dequeue         155,000,000       9.89 seconds
+Min-Heap              Enqueue         500,000,000       9.50 seconds
+Min-Heap              Dequeue         30,000,000        9.63 seconds
+---------------------------------------------------------------
+
+Testing Method:
+For each test, the program generated N random integers. Program output
+was redirected to /dev/null so that terminal display time would not
+affect the performance measurement.
+
+Dequeue time was estimated by subtracting the enqueue-only execution
+time from the combined enqueue-and-dequeue execution time.
